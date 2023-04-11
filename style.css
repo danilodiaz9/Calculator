@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+header {
+    text-align: center;
+}
+
+#display {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(120, 100, 100, .2);
+    width: 330px;
+    height: 80px;
+    
+}
+
+.accessory.butts {
+    background-color: rgb(128, 131, 131);
+}
+
+
+.butts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(231, 131, 25);
+    margin: 2px 2px;
+    font-size: 30px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
