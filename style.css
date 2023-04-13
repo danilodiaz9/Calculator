@@ -1,7 +1,7 @@
 .main {
-    display: flex;
+    display: inline;
     flex-direction: column;
-
+    
     
 }
 
@@ -15,6 +15,10 @@ header {
     background-color: rgba(120, 100, 100, .2);
     width: 330px;
     height: 80px;
+    font-size: 45px;
+    align-items: end;
+    justify-content: end;
+    
     
 }
 
@@ -22,6 +26,13 @@ header {
     background-color: rgb(128, 131, 131);
 }
 
+.accessory.butts:hover {
+    background-color: black;
+}
+
+.accessory.butts:active {
+    background-color: darkred;
+}
 
 .butts {
     display: flex;
@@ -34,6 +45,16 @@ header {
     margin: 2px 2px;
     font-size: 30px;
     color: white;
+}
+
+.butts:hover {
+    background-color: black;
+
+}
+
+.butts:active {
+    background-color: darkred;
+
 }
 
 .row {
