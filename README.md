@@ -10,6 +10,11 @@ This is a calculator app.
 
 ## Programming Languages
 
-HTML  
+**HTML  
 CSS  
-Javascript
+Javascript**
+
+## Instructions for use  
+
+Download zip and extract to same folder.  Run **index.html** file to run app.
+
